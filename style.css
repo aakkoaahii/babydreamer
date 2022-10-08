@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Urbanist:wght@400;500;700&display=swap');
+body {
+    background-color: black;
+    color:white;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Urbanist', sans-serif;
+}
+.pf-container {
+    background-color: #1E1E1E;
+    height: 320px;
+    margin: 16px;
+    border-radius: 20px;
+
+}
+.pfp {
+    display: block;
+    width:80px;
+    height:80px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right:auto;
+    background-image: url(https://images.unsplash.com/photo-1665247586282-3ab471d50428?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.profile {
+   padding-top: 30px;
+}
+.pftag {
+    text-align: center;
+    margin-top:20px;
+}
+a {
+    color: white;
+}
+.pfname {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+.insights {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.followers {
+    margin-right: 30px;
+}
+.num {
+    margin-right: 10px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+.follow_button {
+    background-color: #2478F5;
+    padding: 10px;
+    width: 134px;
+    height: 31;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+.follow_button:hover {
+    background-color:#1457bb ;
+}
+.follow_button:active {
+    background-color:#6497e4 ;
+}
+.follow_button_text {
+    font-weight: bold;
+}
+.feed, .private {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.feed, .guide{
+    margin-top: 0px;
+    font-size: 15px;
+    text-align: center;
+}
+.private {
+    font-weight: bold;
+}
